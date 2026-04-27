@@ -1,6 +1,6 @@
 # 主工作流：调用你刚才的打包脚本
 name: 打包知乎++ APK
-于:
+on:
   # 1. 手动点击按钮触发（最常用）
   workflow_dispatch:
     inputs:
